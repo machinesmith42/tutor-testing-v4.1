@@ -1,0 +1,9 @@
+﻿<Window x:Class="ImagePathWPF.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="MainWindow" Height="540" Width="740">
+    <StackPanel Orientation="Vertical" Margin="10">
+        
+        <!-- Image Path from the given application folder start -->
+        <StackPanel Orientation="Horizontal">
+            <Image Name="imgFromOrigin"></Image>
+        </StackPanel>
+    </StackPanel>
+</Window>
